@@ -1,0 +1,25 @@
+{
+  "name": "iris-mdl",
+  "version": "0.0.1",
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com"
+  },
+  "description": "Wrapper for google MDL",
+  "main" : "index.js",
+  "scripts": {
+      "start": "node index",
+      "install": "bower install"
+  },
+  "files":[
+    "http",
+    "bower.json",
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "underscore" : "*",
+    "serve-static" : "*"
+  }
+}

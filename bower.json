@@ -1,0 +1,22 @@
+{
+  "name": "iris-mdl",
+  "version": "0.0.2",
+  "authors": [
+    "Aspectron Inc. <contact@aspectron.com"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "Private",
+  "homepage": "http://dcp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "material-design-lite#1.1"
+  }
+}
