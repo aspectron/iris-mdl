@@ -17,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "material-design-lite#1.1"
+    "material-design-lite": "*"
   }
 }
