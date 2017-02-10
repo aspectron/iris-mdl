@@ -44,6 +44,16 @@ function MDL(core, options){
 	        });
 		});
 
+		var digestRootPath = ServeStatic(depsComponetsPath+"/material-design-lite");
+		app.get('/material.min.css.map', digestRootPath);
+		app.get('/material.min.js.map', digestRootPath);
+		app.get('/material.min.js', digestRootPath);
+		app.get('/material.min.css', digestRootPath);
+		app.get('/material.js', digestRootPath);
+		app.get('/material.css', digestRootPath);
+
+		app.use('/source', ServeStatic(depsComponetsPath+"/material-design-lite/src"));
+
 		app.use('/deps', ServeStatic(depsComponetsPath));
 		app.use('/MDL/scripts', ServeStatic(scriptsPath));
 	    app.use('/MDL', ServeStatic(componetsPath));
